@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="carenbb.com.hackathon.emotion.joton.HomeWorkerActivity"
+    tools:showIn="@layout/activity_home_main"
+    android:background="@color/colorPrimaryDark">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button31"
+        android:theme="@style/Base.Widget.AppCompat.Button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="সব মায়ের তথ্য"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="জরুরী সাহায্য"
+        android:id="@+id/button32"
+        android:layout_above="@+id/button31"
+        android:background="@color/colorAccent"
+        android:padding="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/button31"
+        android:layout_alignStart="@+id/button31"
+        android:textSize="15dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বার্তা"
+        android:id="@+id/button33"
+        android:background="@color/colorAccent"
+        android:padding="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignTop="@+id/button32"
+        android:layout_alignRight="@+id/button31"
+        android:layout_alignEnd="@+id/button31"
+        android:textSize="15dp"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp" />
+</RelativeLayout>

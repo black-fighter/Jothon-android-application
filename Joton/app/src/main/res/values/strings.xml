@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">যতন</string>
+    <string name="title_activity_user_select">UserSelectActivity</string>
+    <string name="title_activity_home_main">HomeMainActivity</string>
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_worker_registration">স্বাথ্যকর্মী নিবন্ধন</string>
+
+    <string name="worker_pic">workerPicTrans</string>
+    <string name="worker_But">workerButTrans</string>
+    <string name="worker_tit">workerTitTrans</string>
+    <string name="mother_trans_pic">motherpictrans</string>
+    <string name="mother_trans_button">motherbuttrans</string>
+    <string name="mother_trans_title">motherTittrans</string>
+
+    <string-array name="selectDiv">
+        <item>আগে বিভাগ সিলেক্ট করুন</item>
+    </string-array>
+    <string-array name="selectDis">
+        <item>আগে জেলা সিলেক্ট করুন</item>
+    </string-array>
+
+    <string-array name="spnMomRegLayout">
+        <item>কেবল গর্ভবতী</item>
+        <item>বাচ্চা হয়ে গেছে</item>
+    </string-array>
+    <string name="title_activity_help_list">HelpListActivity</string>
+    <string name="title_activity_all_mother_list">AllMotherListActivity</string>
+    <string name="title_activity_mother_details">MotherDetailsActivity</string>
+</resources>

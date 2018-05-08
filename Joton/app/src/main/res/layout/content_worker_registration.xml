@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="carenbb.com.hackathon.emotion.joton.WorkerRegistrationActivity"
+    tools:showIn="@layout/activity_worker_registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="স্বাস্থ্যকর্মী নিবন্ধন"
+        android:id="@+id/textView60"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নাম"
+        android:id="@+id/textView61"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView60" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনার নাম লিখুন"
+        android:ems="10"
+        android:id="@+id/editText61"
+        android:layout_alignBottom="@+id/textView61"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="মোবাইল নাম্বার"
+        android:id="@+id/textView62"
+        android:layout_below="@+id/editText61"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText62"
+        android:layout_alignBottom="@+id/textView62"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:phoneNumber="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="বিভাগ"
+        android:id="@+id/textView63"
+        android:layout_below="@+id/textView62"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner61"
+        android:layout_alignBaseline="@+id/textView63"
+        android:layout_alignBottom="@+id/textView63"
+        android:layout_alignLeft="@+id/editText62"
+        android:layout_alignStart="@+id/editText62" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="জেলা"
+        android:id="@+id/textView64"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/spinner61"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner62"
+        android:layout_alignBaseline="@+id/textView64"
+        android:layout_alignBottom="@+id/textView64"
+        android:layout_alignLeft="@+id/spinner61"
+        android:layout_alignStart="@+id/spinner61"
+        android:entries="@array/selectDiv" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="স্বাস্থ্যকেন্দ্র"
+        android:id="@+id/textView65"
+        android:layout_below="@+id/spinner62"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner63"
+        android:layout_alignBaseline="@+id/textView65"
+        android:layout_alignBottom="@+id/textView65"
+        android:layout_alignLeft="@+id/spinner62"
+        android:layout_alignStart="@+id/spinner62"
+        android:entries="@array/selectDis" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="পাসওয়ার্ড"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/spinner63"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText63"
+        android:password="true"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/spinner63"
+        android:layout_alignStart="@+id/spinner63" />
+</RelativeLayout>

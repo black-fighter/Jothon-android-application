@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="carenbb.com.hackathon.emotion.joton">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserSelectActivity"
+            android:label="@string/title_activity_user_select"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HomeMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MotherRegistrationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".HomeInfoActivity" />
+        <activity
+            android:name=".InfoDetailActivity"
+            android:parentActivityName=".HomeInfoActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeInfoActivity" />
+        </activity>
+        <activity
+            android:name=".InfoChildDetailActivity"
+            android:parentActivityName=".HomeInfoActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HomeInfoActivity" />
+        </activity>
+    <activity
+        android:name=".AllWorkerListActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeInfoActivity" />
+    </activity>
+        <activity
+            android:name=".WorkerRegistrationActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WorkerLoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HomeWorkerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".WorkerSelectionActivity" />
+        <activity android:name=".MotherSelectionActivity" />
+        <activity
+            android:name=".MotherLoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HelpListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeWorkerActivity" />
+        </activity>
+        <activity
+            android:name=".AllMotherListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeWorkerActivity" />
+        </activity>
+        <activity
+            android:name=".MotherDetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllMotherListActivity" /></activity>
+    </application>
+
+</manifest>

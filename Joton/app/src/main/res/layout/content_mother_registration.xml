@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="carenbb.com.hackathon.emotion.joton.WorkerRegistrationActivity"
+    tools:showIn="@layout/activity_mother_registration">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="মা  নিবন্ধন"
+        android:id="@+id/textView60"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নাম"
+        android:id="@+id/textView41"
+        android:layout_marginTop="80dp"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="মোবাইল নাম্বার"
+        android:id="@+id/textView42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText41" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ওজন"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/editText42" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="বয়স"
+        android:id="@+id/textView44"
+        android:layout_below="@+id/spinner43"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText41"
+            style="@style/Base.Widget.AppCompat.EditText"
+            android:padding="0dp"
+            android:layout_alignTop="@+id/textView41"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/childLayout"
+            android:layout_alignLeft="@+id/textView60"
+            android:layout_alignStart="@+id/textView60" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText42"
+            android:inputType="phone"
+            android:layout_below="@+id/editText41"
+            android:paddingBottom="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_alignLeft="@+id/editText41"
+            android:layout_alignStart="@+id/editText41" />
+
+        <Spinner
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner43"
+            android:layout_alignTop="@+id/textView43"
+            android:layout_alignLeft="@+id/editText42"
+            android:layout_alignStart="@+id/editText42"
+            android:paddingBottom="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner44"
+            android:paddingBottom="15dp"
+            android:layout_below="@+id/spinner43"
+            android:layout_alignLeft="@+id/spinner43"
+            android:layout_alignStart="@+id/spinner43"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="রক্তের গ্রুপ"
+        android:id="@+id/textView4111"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner44"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="কত নাম্বার শিশু"
+        android:id="@+id/textView419"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner4111"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="বিভাগ"
+        android:id="@+id/textView421"
+        android:layout_below="@+id/spinner419"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="জেলা"
+        android:id="@+id/textView431"
+        android:layout_below="@+id/spinner421"
+        android:layout_alignRight="@+id/textView441"
+        android:layout_alignEnd="@+id/textView441"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="উপজেলা"
+        android:id="@+id/textView441"
+        android:layout_below="@+id/spinner431"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4111"
+        style="@style/Base.Widget.AppCompat.Spinner"
+        android:spinnerMode="dropdown"
+        android:padding="0dp"
+        android:layout_alignTop="@+id/textView4111"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/childLayout"
+        android:layout_alignLeft="@+id/textView60"
+        android:layout_alignStart="@+id/textView60"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner419"
+        android:layout_below="@+id/spinner4111"
+        android:layout_alignLeft="@+id/spinner4111"
+        android:layout_alignStart="@+id/spinner4111"
+        android:paddingBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner421"
+        android:layout_below="@+id/spinner419"
+        android:layout_alignLeft="@+id/spinner419"
+        android:layout_alignStart="@+id/spinner419"
+        android:paddingBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner431"
+        android:layout_below="@+id/spinner421"
+        android:layout_alignLeft="@+id/spinner421"
+        android:layout_alignStart="@+id/spinner421"
+        android:paddingBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner441"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/spinner431"
+        android:layout_alignLeft="@+id/spinner431"
+        android:layout_alignStart="@+id/spinner431"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dropDown"
+            android:paddingBottom="15dp"
+            android:layout_below="@+id/spinner441"
+            android:layout_alignLeft="@+id/spinner441"
+            android:layout_alignStart="@+id/spinner441"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/childLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dropDown"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible"
+        android:layout_marginBottom="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নবজাতকের বয়স"
+        android:id="@+id/textView49"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView46"
+        android:layout_alignEnd="@+id/textView46" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নবজাতকের ওজন"
+        android:id="@+id/textView46"
+        android:layout_below="@+id/spinner49"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="নবজাতকের রক্তের গ্রুপ"
+        android:id="@+id/textView47"
+        android:layout_below="@+id/spinner46" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner49"
+        style="@style/Base.Widget.AppCompat.Spinner"
+        android:spinnerMode="dropdown"
+        android:padding="0dp"
+        android:layout_alignTop="@+id/textView49"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner46"
+        android:layout_below="@+id/spinner49"
+        android:layout_alignLeft="@+id/spinner49"
+        android:layout_alignStart="@+id/spinner49"
+        android:paddingBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner47"
+        android:layout_alignTop="@+id/textView47"
+        android:layout_alignLeft="@+id/spinner46"
+        android:layout_alignStart="@+id/spinner46"
+        android:paddingBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/motherLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dropDown"
+        android:visibility="gone"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/dropDown"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="গর্ভধারনের সময়কাল"
+            android:id="@+id/textView411"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner411"
+            style="@style/Base.Widget.AppCompat.Spinner"
+            android:spinnerMode="dropdown"
+            android:padding="0dp"
+            android:layout_alignTop="@+id/textView411"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

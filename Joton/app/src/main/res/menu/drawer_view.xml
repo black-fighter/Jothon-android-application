@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_dashboard"
+            android:title="সকল তথ্যাবলী" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_event"
+            android:title="নিবন্ধন করুন" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_event"
+            android:title="লগইন করুন" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_event"
+            android:title="জরুরী সাহায্য" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_event"
+            android:title="মেসেজ করুন" />
+        <item
+            android:id="@+id/nav_nearHC"
+            android:icon="@drawable/ic_event"
+            android:title="নিকটস্থ স্বাস্থ্যকেন্দ্র" />
+        <item
+            android:id="@+id/nav_nearWorker"
+            android:icon="@drawable/ic_event"
+            android:title="নিকটস্থ স্বাস্থ্যকর্মী" />
+        <!--<item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_headset"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_discussion"
+            android:icon="@drawable/ic_forum"
+            android:title="Discussion" />-->
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_dashboard"
+                android:title="লগ আউট করুন" />
+            <item
+                android:icon="@drawable/ic_dashboard"
+                android:title="টিউটোরিয়াল" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="সেটিংস" />
+        </menu>
+    </item>
+
+</menu>
